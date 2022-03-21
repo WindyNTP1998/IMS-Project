@@ -7,7 +7,9 @@ namespace IMS.CoreBusiness
         public int InventoryId { get; set; }
         [Required]
         public string? InventoryName { get; set; }
+        [Range(0, int.MaxValue, ErrorMessage = "Quantity must be greater than 0")]
         public int Quantity { get; set; }
+        [Range(0, int.MaxValue, ErrorMessage = "Price must be greater than 0")]
         public double Price { get; set; }
     }
 }
