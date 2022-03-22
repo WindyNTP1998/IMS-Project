@@ -1,0 +1,29 @@
+<h4></h4>
+@if (product != null)
+{
+    <tr>
+        <td>@product.ProductName</td>
+        <td>@product.Quantity</td>
+        <td>@product.Price.ToString("c")</td>
+        <td>
+            <button class="btn btn-primary" type="submit" @onclick="@(()=> EditProduct(product.ProductId))">Edit</button>
+
+            <button class="btn btn-warning" type="submit" @onclick="@(()=> DeleteProduct(product.ProductId))">Edit</button>
+        </td>
+    </tr>
+}
+
+
+@code {
+    [Parameter]
+    public Product? product { get; set; }
+
+    private void EditProduct(int productId)
+    {
+        //NavigationManager.NavigateTo("/products/edit/" + productId);
+    }
+    private void DeleteProduct(int productId)
+    {
+
+    }
+}

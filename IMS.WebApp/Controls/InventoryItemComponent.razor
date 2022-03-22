@@ -1,0 +1,26 @@
+@inject NavigationManager NavigationManager
+
+<h4></h4>
+@if (inventory != null)
+{
+    <tr>
+        <td>@inventory.InventoryName</td>
+        <td>@inventory.Quantity</td>
+        <td>@inventory.Price.ToString("c")</td>
+        <td>
+            <button class="btn btn-light" type="submit"
+            @onclick="@(()=> EditInventory(inventory.InventoryId))">Edit</button>
+        </td>
+    </tr>
+}
+
+
+@code {
+    [Parameter]
+    public Inventory? inventory { get; set; }
+
+    private void EditInventory(int InvId)
+    {
+        NavigationManager.NavigateTo($"/editinventory/{InvId}");
+    }
+}
