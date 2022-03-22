@@ -19,8 +19,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/phong.nguyen/Desktop/Data/IMS/IMS/IMS.WebApp/Controls/InventoryItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcSW52ZW50b3J5SXRlbUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phong.nguyen/Desktop/Data/IMS/IMS/IMS.WebApp/Controls/ProductItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcUHJvZHVjdEl0ZW1Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/phong.nguyen/Desktop/Data/IMS/IMS/IMS.WebApp/Controls/ViewInventoriesComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcVmlld0ludmVudG9yaWVzQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phong.nguyen/Desktop/Data/IMS/IMS/IMS.WebApp/Controls/ViewProductsComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcVmlld1Byb2R1Y3RzQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/phong.nguyen/Desktop/Data/IMS/IMS/IMS.WebApp/Pages/AddInventory.razor]
@@ -45,6 +57,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/phong.nguyen/Desktop/Data/IMS/IMS/IMS.WebApp/Pages/InventoryList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phong.nguyen/Desktop/Data/IMS/IMS/IMS.WebApp/Pages/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdExpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/phong.nguyen/Desktop/Data/IMS/IMS/IMS.WebApp/Shared/LoginDisplay.razor]
