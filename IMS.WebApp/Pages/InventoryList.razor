@@ -28,7 +28,7 @@
                     <td>@inv.Quantity</td>
                     <td>@inv.Price.ToString("c")</td>
                     <td>
-                        <button class="btn btn-light" type="submit">Edit</button>
+                        <button class="btn btn-light" type="submit" @onclick="@(()=> EditInventory(inv.InventoryId))">Edit</button>
                     </td>
                 </tr>
             }
@@ -44,8 +44,6 @@
 
     private List<Inventory>? listInventory;
 
-
-
     private void OnSearchInventories(List<Inventory> inventories)
     {
         this.listInventory = inventories;
@@ -58,8 +56,11 @@
 
     protected override async Task OnInitializedAsync()
     {
-
         var invs = await ViewInventoriesByNameUseCase.ExecuteAsync("");
         this.listInventory = invs.ToList();
+    }
+
+    private void EditInventory(int InvId){
+        NavigationManager.NavigateTo($"/editinventory/{InvId}");
     }
 }
