@@ -296,6 +296,256 @@
         }
       },
       {
+        "HashCode": -1745168261,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Controls.InventoryItemComponent",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InventoryItemComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "inventory",
+            "TypeName": "IMS.CoreBusiness.Inventory",
+            "Metadata": {
+              "Common.PropertyName": "inventory"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Controls.InventoryItemComponent"
+        }
+      },
+      {
+        "HashCode": -1210430686,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Controls.InventoryItemComponent",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IMS.WebApp.Controls.InventoryItemComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "inventory",
+            "TypeName": "IMS.CoreBusiness.Inventory",
+            "Metadata": {
+              "Common.PropertyName": "inventory"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Controls.InventoryItemComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1535253324,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Controls.ProductItemComponent",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProductItemComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "product",
+            "TypeName": "IMS.CoreBusiness.Product",
+            "Metadata": {
+              "Common.PropertyName": "product"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Controls.ProductItemComponent"
+        }
+      },
+      {
+        "HashCode": 1869840877,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Controls.ProductItemComponent",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IMS.WebApp.Controls.ProductItemComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "product",
+            "TypeName": "IMS.CoreBusiness.Product",
+            "Metadata": {
+              "Common.PropertyName": "product"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Controls.ProductItemComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1331391973,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Controls.ViewProductsComponent",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ViewProductsComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSearchProducts",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Product>>",
+            "Metadata": {
+              "Common.PropertyName": "OnSearchProducts",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Controls.ViewProductsComponent"
+        }
+      },
+      {
+        "HashCode": 1818638421,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Controls.ViewProductsComponent",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IMS.WebApp.Controls.ViewProductsComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSearchProducts",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Product>>",
+            "Metadata": {
+              "Common.PropertyName": "OnSearchProducts",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Controls.ViewProductsComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1674006935,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Controls.ViewInventoriesComponent",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ViewInventoriesComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSearchInventories",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Inventory>>",
+            "Metadata": {
+              "Common.PropertyName": "OnSearchInventories",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSelectInventory",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<IMS.CoreBusiness.Inventory>",
+            "Metadata": {
+              "Common.PropertyName": "OnSelectInventory",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DisplaySearchResult",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "DisplaySearchResult"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Controls.ViewInventoriesComponent"
+        }
+      },
+      {
+        "HashCode": 790791867,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Controls.ViewInventoriesComponent",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IMS.WebApp.Controls.ViewInventoriesComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSearchInventories",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Inventory>>",
+            "Metadata": {
+              "Common.PropertyName": "OnSearchInventories",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSelectInventory",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<IMS.CoreBusiness.Inventory>",
+            "Metadata": {
+              "Common.PropertyName": "OnSelectInventory",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DisplaySearchResult",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "DisplaySearchResult"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Controls.ViewInventoriesComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 245416433,
         "Kind": "Components.Component",
         "Name": "IMS.WebApp.Shared.LoginDisplay",
@@ -507,222 +757,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "IMS.WebApp.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 520056969,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Controls.ViewInventoriesComponent",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ViewInventoriesComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "OnSearchInventories",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Inventory>>",
-            "Metadata": {
-              "Common.PropertyName": "OnSearchInventories",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Controls.ViewInventoriesComponent"
-        }
-      },
-      {
-        "HashCode": -898658452,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Controls.ViewInventoriesComponent",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "IMS.WebApp.Controls.ViewInventoriesComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "OnSearchInventories",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Inventory>>",
-            "Metadata": {
-              "Common.PropertyName": "OnSearchInventories",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Controls.ViewInventoriesComponent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1331391973,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Controls.ViewProductsComponent",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ViewProductsComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "OnSearchProducts",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Product>>",
-            "Metadata": {
-              "Common.PropertyName": "OnSearchProducts",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Controls.ViewProductsComponent"
-        }
-      },
-      {
-        "HashCode": 1818638421,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Controls.ViewProductsComponent",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "IMS.WebApp.Controls.ViewProductsComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "OnSearchProducts",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Product>>",
-            "Metadata": {
-              "Common.PropertyName": "OnSearchProducts",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Controls.ViewProductsComponent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1745168261,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Controls.InventoryItemComponent",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "InventoryItemComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "inventory",
-            "TypeName": "IMS.CoreBusiness.Inventory",
-            "Metadata": {
-              "Common.PropertyName": "inventory"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Controls.InventoryItemComponent"
-        }
-      },
-      {
-        "HashCode": -1210430686,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Controls.InventoryItemComponent",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "IMS.WebApp.Controls.InventoryItemComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "inventory",
-            "TypeName": "IMS.CoreBusiness.Inventory",
-            "Metadata": {
-              "Common.PropertyName": "inventory"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Controls.InventoryItemComponent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1535253324,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Controls.ProductItemComponent",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ProductItemComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "product",
-            "TypeName": "IMS.CoreBusiness.Product",
-            "Metadata": {
-              "Common.PropertyName": "product"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Controls.ProductItemComponent"
-        }
-      },
-      {
-        "HashCode": 1869840877,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Controls.ProductItemComponent",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "IMS.WebApp.Controls.ProductItemComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "product",
-            "TypeName": "IMS.CoreBusiness.Product",
-            "Metadata": {
-              "Common.PropertyName": "product"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Controls.ProductItemComponent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
