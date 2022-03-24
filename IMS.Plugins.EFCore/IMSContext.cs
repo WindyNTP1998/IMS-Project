@@ -10,7 +10,7 @@ namespace IMS.Plugins.EFCore
         }
 
         public DbSet<Inventory> Inventories { get; set; }
-
+        public DbSet<Product> Products { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Inventory>().HasData(
@@ -21,6 +21,11 @@ namespace IMS.Plugins.EFCore
                  new Inventory { InventoryId = 5, InventoryName = "Electric Engine", Price = 8000, Quantity = 2 },
                  new Inventory { InventoryId = 6, InventoryName = "Battery", Price = 400, Quantity = 5 }
              );
+
+            modelBuilder.Entity<Product>().HasData(
+                new Product { ProductId = 1, ProductName = "Gas Car", Quantity = 1, Price = 20000 },
+                new Product { ProductId = 2, ProductName = "Electric Car", Quantity = 1, Price = 10000 }
+            );
         }
     }
 }

@@ -1,0 +1,46 @@
+@page "/products"
+
+@inject IViewProductByNameUseCase ViewProductByNameUseCase
+@inject NavigationManager NavigationManager
+
+<h3>Products</h3>
+<br/>
+
+<ViewProductsComponent OnSearchProducts = "OnSearchProducts"></ViewProductsComponent>
+
+
+@if (listProducts != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var prod in listProducts)
+            {
+                <ProductItemComponent product = "prod" ></ProductItemComponent>
+            }
+        </tbody>
+
+    </table>
+}
+
+<br />
+<button class="btn btn-primary" type="submit" @onclick="AddProduct">Add Inventory</button>
+
+@code{
+    private List<Product>? listProducts;
+    
+    private void OnSearchProducts(List<Product> product){
+        this.listProducts = product;
+    }
+
+    
+
+    private void AddProduct (){}
+}

@@ -7,7 +7,8 @@
 <h3>Inventory List</h3>
 
 <br />
-<ViewInventoriesComponent OnSearchInventories="OnSearchInventories"></ViewInventoriesComponent>
+<ViewInventoriesComponent OnSearchInventories="OnSearchInventories">
+</ViewInventoriesComponent>
 
 @if (listInventory != null)
 {
@@ -23,14 +24,7 @@
         <tbody>
             @foreach (var inv in listInventory)
             {
-                <tr>
-                    <td>@inv.InventoryName</td>
-                    <td>@inv.Quantity</td>
-                    <td>@inv.Price.ToString("c")</td>
-                    <td>
-                        <button class="btn btn-light" type="submit">Edit</button>
-                    </td>
-                </tr>
+                <InventoryItemComponent inventory="inv"></InventoryItemComponent>
             }
         </tbody>
 
@@ -40,11 +34,12 @@
 <br />
 <button class="btn btn-primary" type="submit" @onclick="AddInventory">Add Inventory</button>
 
+
+
 @code {
 
     private List<Inventory>? listInventory;
-
-
+    //private Inventory? inv;
 
     private void OnSearchInventories(List<Inventory> inventories)
     {
@@ -56,10 +51,16 @@
         NavigationManager.NavigateTo("/addiventories");
     }
 
+    @* private void OnSelectInventory(Inventory inventory)
+        {
+        inv = inventory;
+        } *@
+
     protected override async Task OnInitializedAsync()
     {
-
         var invs = await ViewInventoriesByNameUseCase.ExecuteAsync("");
         this.listInventory = invs.ToList();
     }
+
+
 }
