@@ -12,6 +12,14 @@ namespace IMS.Plugins.EFCore
             _context = context;
         }
 
+        public async Task AddProductAsync(Product product)
+        {
+            if (_context.Products
+                .Any(x => x.ProductName
+                .Equals(product.ProductName, StringComparison.OrdinalIgnoreCase))) return;
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
+        }
 
         public async Task<List<Product>> GetProductsByNameAsync(string productName)
         {

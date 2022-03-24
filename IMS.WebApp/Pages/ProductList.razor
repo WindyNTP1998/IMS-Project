@@ -4,9 +4,9 @@
 @inject NavigationManager NavigationManager
 
 <h3>Products</h3>
-<br/>
+<br />
 
-<ViewProductsComponent OnSearchProducts = "OnSearchProducts"></ViewProductsComponent>
+<ViewProductsComponent OnSearchProducts="OnSearchProducts"></ViewProductsComponent>
 
 
 @if (listProducts != null)
@@ -23,7 +23,7 @@
         <tbody>
             @foreach (var prod in listProducts)
             {
-                <ProductItemComponent product = "prod" ></ProductItemComponent>
+                <ProductItemComponent product="prod"></ProductItemComponent>
             }
         </tbody>
 
@@ -31,16 +31,20 @@
 }
 
 <br />
-<button class="btn btn-primary" type="submit" @onclick="AddProduct">Add Inventory</button>
+<button class="btn btn-primary" type="submit" @onclick="AddProduct">Add Product</button>
 
-@code{
+@code {
     private List<Product>? listProducts;
-    
-    private void OnSearchProducts(List<Product> product){
+
+    private void OnSearchProducts(List<Product> product)
+    {
         this.listProducts = product;
     }
 
-    
 
-    private void AddProduct (){}
+
+    private void AddProduct()
+    {
+        NavigationManager.NavigateTo("/addproduct");
+    }
 }

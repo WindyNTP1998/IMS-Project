@@ -32,15 +32,18 @@
 @code {
 
     [Parameter]
-    public int InvId { get; set;}
+    public int InvId { get; set; }
     private Inventory? inventory;
 
-    protected override async Task OnInitializedAsync() {
+    protected override async Task OnInitializedAsync()
+    {
         this.inventory = await ViewInventoryByIdUseCase.ExecuteAsync(InvId);
     }
 
-    public async void OnValidSubmit(){
-        if(this.inventory != null) {            
+    public async void OnValidSubmit()
+    {
+        if (this.inventory != null)
+        {
             await EditInventoryUseCase.ExecuteAsync(this.inventory);
             NavigationManager.NavigateTo("/inventories");
         }

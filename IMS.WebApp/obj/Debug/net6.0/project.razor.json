@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 370577364,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Pages.AddInventory",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AddInventory"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Pages.AddInventory"
-        }
-      },
-      {
-        "HashCode": 1531877384,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Pages.AddInventory",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "IMS.WebApp.Pages.AddInventory"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Pages.AddInventory",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1357384393,
         "Kind": "Components.Component",
         "Name": "IMS.WebApp.Pages.Counter",
@@ -74,59 +41,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "IMS.WebApp.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 829732270,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Pages.EditInventory",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EditInventory"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "InvId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "InvId"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Pages.EditInventory"
-        }
-      },
-      {
-        "HashCode": 878834215,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Pages.EditInventory",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "IMS.WebApp.Pages.EditInventory"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "InvId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "InvId"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Pages.EditInventory",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -197,6 +111,125 @@
         }
       },
       {
+        "HashCode": 1496001328,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Pages.InventoryList",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "InventoryList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Pages.InventoryList"
+        }
+      },
+      {
+        "HashCode": -113634041,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Pages.InventoryList",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IMS.WebApp.Pages.InventoryList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Pages.InventoryList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 829732270,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Pages.EditInventory",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditInventory"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "InvId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "InvId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Pages.EditInventory"
+        }
+      },
+      {
+        "HashCode": 878834215,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Pages.EditInventory",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IMS.WebApp.Pages.EditInventory"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "InvId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "InvId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Pages.EditInventory",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 370577364,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Pages.AddInventory",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AddInventory"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Pages.AddInventory"
+        }
+      },
+      {
+        "HashCode": 1531877384,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Pages.AddInventory",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IMS.WebApp.Pages.AddInventory"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Pages.AddInventory",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 366190206,
         "Kind": "Components.Component",
         "Name": "IMS.WebApp.Pages.ProductList",
@@ -230,35 +263,35 @@
         }
       },
       {
-        "HashCode": 1496001328,
+        "HashCode": -1015364587,
         "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Pages.InventoryList",
+        "Name": "IMS.WebApp.Pages.AddProduct",
         "AssemblyName": "IMS.WebApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "InventoryList"
+            "TagName": "AddProduct"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Pages.InventoryList"
+          "Common.TypeName": "IMS.WebApp.Pages.AddProduct"
         }
       },
       {
-        "HashCode": -113634041,
+        "HashCode": 1708043795,
         "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Pages.InventoryList",
+        "Name": "IMS.WebApp.Pages.AddProduct",
         "AssemblyName": "IMS.WebApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "IMS.WebApp.Pages.InventoryList"
+            "TagName": "IMS.WebApp.Pages.AddProduct"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Pages.InventoryList",
+          "Common.TypeName": "IMS.WebApp.Pages.AddProduct",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -402,61 +435,6 @@
         }
       },
       {
-        "HashCode": -1331391973,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Controls.ViewProductsComponent",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ViewProductsComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "OnSearchProducts",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Product>>",
-            "Metadata": {
-              "Common.PropertyName": "OnSearchProducts",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Controls.ViewProductsComponent"
-        }
-      },
-      {
-        "HashCode": 1818638421,
-        "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Controls.ViewProductsComponent",
-        "AssemblyName": "IMS.WebApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "IMS.WebApp.Controls.ViewProductsComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "OnSearchProducts",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Product>>",
-            "Metadata": {
-              "Common.PropertyName": "OnSearchProducts",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Controls.ViewProductsComponent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1674006935,
         "Kind": "Components.Component",
         "Name": "IMS.WebApp.Controls.ViewInventoriesComponent",
@@ -546,35 +524,90 @@
         }
       },
       {
-        "HashCode": 245416433,
+        "HashCode": -1331391973,
         "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Shared.LoginDisplay",
+        "Name": "IMS.WebApp.Controls.ViewProductsComponent",
         "AssemblyName": "IMS.WebApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "LoginDisplay"
+            "TagName": "ViewProductsComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSearchProducts",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Product>>",
+            "Metadata": {
+              "Common.PropertyName": "OnSearchProducts",
+              "Components.EventCallback": "True"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Shared.LoginDisplay"
+          "Common.TypeName": "IMS.WebApp.Controls.ViewProductsComponent"
         }
       },
       {
-        "HashCode": -8991514,
+        "HashCode": 1818638421,
         "Kind": "Components.Component",
-        "Name": "IMS.WebApp.Shared.LoginDisplay",
+        "Name": "IMS.WebApp.Controls.ViewProductsComponent",
         "AssemblyName": "IMS.WebApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "IMS.WebApp.Shared.LoginDisplay"
+            "TagName": "IMS.WebApp.Controls.ViewProductsComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "OnSearchProducts",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<IMS.CoreBusiness.Product>>",
+            "Metadata": {
+              "Common.PropertyName": "OnSearchProducts",
+              "Components.EventCallback": "True"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "IMS.WebApp.Shared.LoginDisplay",
+          "Common.TypeName": "IMS.WebApp.Controls.ViewProductsComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -292016821,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Controls.ProductInventoriesComponent",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ProductInventoriesComponent"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Controls.ProductInventoriesComponent"
+        }
+      },
+      {
+        "HashCode": 866520593,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Controls.ProductInventoriesComponent",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IMS.WebApp.Controls.ProductInventoriesComponent"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Controls.ProductInventoriesComponent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -757,6 +790,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "IMS.WebApp.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 245416433,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Shared.LoginDisplay",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Shared.LoginDisplay"
+        }
+      },
+      {
+        "HashCode": -8991514,
+        "Kind": "Components.Component",
+        "Name": "IMS.WebApp.Shared.LoginDisplay",
+        "AssemblyName": "IMS.WebApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IMS.WebApp.Shared.LoginDisplay"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "IMS.WebApp.Shared.LoginDisplay",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -17082,6 +17148,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\phong.nguyen\\Desktop\\Data\\IMS\\IMS\\IMS.WebApp\\Pages\\AddProduct.razor",
+      "TargetPath": "Pages\\AddProduct.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\phong.nguyen\\Desktop\\Data\\IMS\\IMS\\IMS.WebApp\\Areas\\Identity\\Pages\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
@@ -17130,6 +17201,11 @@
       "FilePath": "c:\\Users\\phong.nguyen\\Desktop\\Data\\IMS\\IMS\\IMS.WebApp\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\phong.nguyen\\Desktop\\Data\\IMS\\IMS\\IMS.WebApp\\Controls\\ProductInventoriesComponent.razor",
+      "TargetPath": "Controls\\ProductInventoriesComponent.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\phong.nguyen\\Desktop\\Data\\IMS\\IMS\\IMS.WebApp\\Pages\\Counter.razor",
